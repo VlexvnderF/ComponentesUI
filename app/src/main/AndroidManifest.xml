@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.flores.componentesui">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ComponentesUI">
+        <activity
+            android:name=".CustomAlertDialogActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProgressBarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EditTextActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ToogleButtonActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RadioButtonActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AndroidButtonActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CheckBoxActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ScrollViewHorizontalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ScrollViewActivity"
+            android:exported="false"
+            android:label="@string/title_activity_scroll_view"
+            android:theme="@style/Theme.ComponentesUI.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
